@@ -1,0 +1,69 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+    height: 100vh;
+}
+
+.container{
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.538);
+    border-radius: 10px;
+    padding: 25px;
+    background-color: white;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(43, 43, 43);
+}
+
+
+input[type="text"]{
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border: 2px solid wheat;
+    width: 90%;
+}
+
+#addToDO{
+    padding: 10px 20px;
+    background-color: wheat;
+    border: none;
+    border: 5px;
+    cursor: pointer;
+}
+
+#addToDO:hover{
+    box-shadow: 0px 0px 3px black;
+}
+
+#ToDoList{
+    padding: 0%;
+    list-style: none;
+}
+
+#ToDoList li{
+    padding: 10px;
+    background-color: rgb(196, 194, 194);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#ToDoList button{
+    background-color: rgb(225, 66, 66);
+    border: none;
+    border-radius: 5px;
+}
+
+
